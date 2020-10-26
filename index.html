@@ -1,0 +1,93 @@
+<html>
+    <head>
+        <title>Web Development</title>
+        <link rel = "stylesheet"
+        type="text/css"
+        href="bootstrap.css"
+        />
+
+        <link rel = "stylesheet"
+        type="text/css"
+        href="style.css"
+        />
+        <script src = "http://code.jquery.com/jquery-3.5.0.min.js"></script>
+    </head>
+    <body>
+        <h2 id='hi' onclick="sayhello()">
+            Hi,there. I'm Bhargav.
+        </h2>
+        <script type="text/javascript">
+            function sayhello(){
+                $('#hi').html('Hello');
+                $('#hi').click(function(){
+                    $('#hi').html("Hi,there.I'm Bhargav.");
+                    $('#hi').off("click");
+                });
+            };
+        </script>
+        <div class="container">
+            <h1>
+                Web Development Guide
+            </h1>
+            <p class="gap">This page will assist you to start and go deeper into the web development</p>
+            <img src="wi.jpg" alt="graffittied building"/>
+            <p class="gap">Basic tools required for web development :-</p>
+            Basic tools required for web development :-
+            <ol>
+                <li>HTML</li>
+                <li>CSS</li>
+                <li>Javascript</li>
+            </ol>
+            <img src="roadmap.jpg" alt="graffittied building"/>
+            
+            <div class="row gap thin_border">
+                <div class="col-md-4 thin_border">
+                    HTML
+                </div>
+                <div class="col-md-4 thin_border">
+                    CSS
+                </div><div class="col-md-4 thin_border">
+                    javascript
+                </div>
+            </div>
+            <div class="row gap thin_border">
+                <div class="col-md-4 thin_border">
+                    <p>
+                        HTML stands for Hyper Text Markup Language. HTML is the standard markup language for creating Web pages. HTML describes the structure of a Web page. HTML consists of a series of elements. HTML elements tell the browser how to display the content.
+                    </p>
+                    <p class="row">
+                        It allows the user to create and structure sections, paragraphs, headings, links, and blockquotes for web pages and applications. HTML is not a programming language, meaning it doesn't have the ability to create dynamic functionality.
+                    </p>
+                </div>
+                <div class="col-md-4 thin_border">
+                    <p>
+                        CSS is the language for describing the presentation of Web pages, including colors, layout, and fonts. It allows one to adapt the presentation to different types of devices, such as large screens, small screens, or printers. CSS is independent of HTML and can be used with any XML-based markup language.
+                    </p>
+                </div><div class="col-md-4 thin_border">
+                    <p>
+                        JavaScript is a text-based programming language used both on the client-side and server-side that allows you to make web pages interactive. Where HTML and CSS are languages that give structure and style to web pages, JavaScript gives web pages interactive elements that engage a user.
+                    </p>
+                </div>
+            </div>
+            <p class="gap">
+                To know how to start web development :
+                <a href="https://www.w3schools.com/whatis/" class="greenlink">Roadmap to web development</a>
+            </p>
+            <p class="gap">
+                To get started with HTML :
+                <a href="https://www.w3schools.com/html/">click here to start html</a> or <a href="https://developer.mozilla.org/en-US/docs/Web/HTML" class="greenlink">click here to start html</a>
+            </p>
+            <img class="gap" src="html.jpg" alt="graffittied building"/>
+            <p class="gap">
+                To start decorating your web pages with CSS :
+                <a href="https://www.w3schools.com/css/">click here to start html</a> or <a href="https://developer.mozilla.org/en-US/docs/Learn/CSS">click here to start html</a>
+            </p>
+            <img class="gap" src="css.jpg" alt="graffittied building"/>
+            <p class="gap">
+                To get your pages more interactive :
+                <a href="https://www.w3schools.com/js/DEFAULT.asp">click here to start html</a> or <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript">click here to start html</a>
+            </p>
+            <img class="gap" src="js.jpg" alt="graffittied building"/>
+        </div>
+    </body>
+</html>

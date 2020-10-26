@@ -1,0 +1,17 @@
+.gap {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.thin_border {
+    border: 1px solid black;
+}
+body {
+    background-color: coral;
+    font-size: x-large;
+}
+
+img{
+    min-height: 450px;
+    min-width: 550px;
+}
